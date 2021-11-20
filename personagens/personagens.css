@@ -54,6 +54,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .conteudo{
@@ -94,3 +95,17 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.butao {
+    height: 12%;
+    width: 9%;
+    text-transform: uppercase;
+    font-family: 'Road Rage', cursive;
+    font-size: 3em;
+    background: none;
+    color: honeydew;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
