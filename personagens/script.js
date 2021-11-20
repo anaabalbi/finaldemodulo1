@@ -1,15 +1,15 @@
 function comecar(){
         alert('Vamos começar!')
         var personagem =' '
-        while(personagem!='shikamaro' && personagem!='ino' && personagem!='choji' ){
-                personagem = prompt ('Escolha o seu personagem? \nShikamaro \nIno \nChoji');
+        while(personagem!='shikamaru' && personagem!='ino' && personagem!='choji' ){
+                personagem = prompt ('Escolha o seu personagem? \nShikamaru \nIno \nChoji');
         }  
-                
-        if(personagem ==='shikamaro'){
-                window.location.href="./shikamaro/shiFase1.html"
+        var selaciona = personagem.toUpperCase()        
+        if(selaciona ==='SHIKAM'){
+                window.location.href="./shikamaru/shiFase1.html"
         }
 
-        else if(personagem ==='ino'){
+        else if(selaciona ==='INO'){
                 window.location.href="./ino/inoFase1.html"
                         
         }

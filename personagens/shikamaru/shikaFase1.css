@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url('/imagem/ekaterina-golubeva-h2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.principal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.texto{
+    width: 50%;
+    height: 30%;
+    display: flex;
+    color: honeydew;
+    flex-direction: column;
+    font-size: 2em;
+    text-indent: 1.3em;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    margin-right: 10%;
+    background-color: #1f193b;
+    padding: 1%;
+}
+
+.fantasia{
+    text-transform: uppercase;
+    background: none;
+    width: 30%;
+    height: 20%;
+    color: honeydew;
+    font-size: 30px;
+    box-shadow: none;
+    border: double azure;
+    
+}
