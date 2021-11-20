@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../imagem/—Pngtree—hand\ drawn\ cartoon\ horror\ halloween_975453.jpg');
+    background-size: cover;
+}
+
+.nome{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.centralizar {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.naruto {
+    width: 25%;
+    height: 30%;
+    display: flex;
+    background-image: url('../imagem/Naruto_logo_PNG1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -9%;
+    
+}
+
+.treat{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    background-image: url('../imagem/pngegg\ \(8\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.principal {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    /* background-color: greenyellow; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.shikamuro {
+    width: 25%;
+    height: 80%;
+    display: flex;
+    background-image: url('../imagem/PngItem_4372836.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ino {
+    width: 25%;
+    height: 80%;
+    display: flex;
+    background-image: url('../imagem/imgbin_ino-yamanaka-sakura-haruno-naruto-sasuke-uchiha-hinata-hyuga-png.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.choji {
+    width: 25%;
+    height: 80%;
+    display: flex;
+    background-image: url('../imagem/pngegg\ \(9\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

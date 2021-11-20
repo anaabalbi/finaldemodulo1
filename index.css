@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #091735;
+
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url('./imagem/hallowen.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    align-items: center;
+    justify-content: center;
+}
+
+.jogar {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Road Rage', cursive;
+    font-size: 3em;
+}
+.jogar a{
+    text-decoration: none;
+}
+.jogar a:hover{
+    font-size: 2em;
+}
+.jogar a:active{
+    color: white;
+}
+.jogar a:visited{
+    color: white;
+}
