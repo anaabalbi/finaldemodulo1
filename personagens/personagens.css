@@ -61,7 +61,6 @@ body{
     width: 80%;
     height: 80%;
     display: flex;
-    /* background-color: greenyellow; */
     align-items: center;
     justify-content: space-around;
 }
@@ -106,7 +105,11 @@ body{
     color: honeydew;
     text-align: center;
     border-radius: 10px;
-    
+}
+
+.butao:hover{
+    color: burlywood;
+    cursor: pointer;
 }
 
 

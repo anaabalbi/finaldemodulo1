@@ -41,10 +41,15 @@
     text-transform: uppercase;
     background: none;
     width: 30%;
-    height: 20%;
-    color: honeydew;
-    font-size: 30px;
+    height: 30%;
+    color: #937cb0; 
+    font-size: 40px;
     box-shadow: none;
-    border: double azure;
-    
+    border: double #485f9d;
+    font-family: 'Creepster', cursive;
+}
+
+.fantasia:hover{
+    color: white;
+    cursor: pointer;
 }

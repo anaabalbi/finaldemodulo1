@@ -5,7 +5,7 @@ function comecar(){
                 personagem = prompt ('Escolha o seu personagem? \nShikamaru \nIno \nChoji');
         }  
         var selaciona = personagem.toUpperCase()        
-        if(selaciona ==='SHIKAM'){
+        if(selaciona ==='SHIKAMARU'){
                 window.location.href="./shikamaru/shiFase1.html"
         }
 
