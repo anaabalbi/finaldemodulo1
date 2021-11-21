@@ -59,56 +59,110 @@ body{
 
 .conteudo{
     width: 80%;
-    height: 80%;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.shikamuro {
+
+.shikamaru { 
     width: 25%;
-    height: 80%;
+    height: 90%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shikamaru div{
+    width: 90%;
+    height: 85%;
     background-image: url('../imagem/PngItem_4372836.png');
     background-size: contain;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
-.ino {
+.shikamaru p{
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    color: white;
+    font-family: 'Ninja Naruto', sans-serif;
+    font-size: xx-large;
+}
+
+.ino { 
     width: 25%;
-    height: 80%;
+    height: 90%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ino div{
+    width: 90%;
+    height: 85%;
     background-image: url('../imagem/imgbin_ino-yamanaka-sakura-haruno-naruto-sasuke-uchiha-hinata-hyuga-png.png');
     background-size: contain;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
-.choji {
+.ino p{
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    color: white;
+    font-family: 'Ninja Naruto', sans-serif;
+    font-size: xx-large;
+  
+}
+
+.choji { 
     width: 25%;
-    height: 80%;
+    height: 90%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choji div{
+    width: 90%;
+    height: 85%;
     background-image: url('../imagem/pngegg\ \(9\).png');
     background-size: contain;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
 }
+    
+
+.choji p{
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    color: white;
+    font-family: 'Ninja Naruto', sans-serif;
+    font-size: xx-large;
+}
+
 
 .butao {
-    height: 12%;
-    width: 9%;
-    text-transform: uppercase;
-    font-family: 'Road Rage', cursive;
+    height: 15%;
+    width: 15%;
+    font-family: 'Ninja Naruto', sans-serif;    
     font-size: 3em;
     background: none;
-    color: honeydew;
+    color: #fcd000;
     text-align: center;
     border-radius: 10px;
-}
+} 
 
 .butao:hover{
-    color: burlywood;
+    color: honeydew;
     cursor: pointer;
 }
 
