@@ -7,7 +7,6 @@
 .fundo{
     width: 100%;
     height: 100vh;
-    background-color: #e9e8e6;
     
  
 }
@@ -23,7 +22,7 @@
     height: 60%;
     display: flex;
     justify-content: flex-end;
-    background-image: url('/imagem/giphy\ \(1\).gif');
+    background-image: url('/imagem/shikamaruanim.gif');
     background-size: contain;
     background-position-x:10%;
     background-position-y:center;
