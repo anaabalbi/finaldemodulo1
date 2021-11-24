@@ -7,49 +7,63 @@
 .fundo{
     width: 100%;
     height: 100vh;
-    display: flex;
-    background-image: url('/imagem/thumb-1920-755701.png');
-    background-size: cover;
-    background-position: center;
+    background-color: #e9e8e6;
+    
+ 
+}
+
+.cabecalho {
+    width: 100%;
+    height: 20%;
+
 }
 
 .principal{
     width: 100%;
-    height: 100vh;
+    height: 60%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: flex-end;
+    background-image: url('/imagem/giphy\ \(1\).gif');
+    background-size: contain;
+    background-position-x:10%;
+    background-position-y:center;
+    background-repeat: no-repeat;
 }
-.texto{
-    width: 50%;
-    height: 30%;
+
+.alinha{
+    width: 60%;
+    height: 90%;
     display: flex;
-    color: honeydew;
     flex-direction: column;
-    font-size: 2em;
-    text-indent: 1.3em;
     justify-content: space-around;
     align-items: center;
+    
+}
+.texto{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    color: honeydew;
+    font-size: 2em;
+    text-indent: 1.3em;
     text-align: justify;
-    margin-right: 10%;
-    background-color: #1f193b;
+    background-color: #eab321;
     padding: 1%;
 }
 
-.fantasia{
+.enigma{
     text-transform: uppercase;
     background: none;
-    width: 30%;
-    height: 30%;
+    width: 80%;
+    height: 15%;
     color: #937cb0; 
     font-size: 40px;
     box-shadow: none;
-    border: double #485f9d;
-    font-family: 'Creepster', cursive;
+    border: none;
+    font-family: 'Ninja Naruto', sans-serif;
 }
 
-.fantasia:hover{
+.enigma:hover{
     color: white;
     cursor: pointer;
 }
