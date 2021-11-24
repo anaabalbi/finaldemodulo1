@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    
+ 
+}
+
+.cabecalho {
+    width: 100%;
+    height: 15%;
+
+}
+
+.principal{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('/imagem/1181605591old-lightbulb-on-off-gif.gif');
+    background-size: contain;
+    background-position-x:10%;
+    background-position-y:center;
+    background-repeat: no-repeat;
+}
+
+.alinha{
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.texto{
+    margin-top: 10%;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    color: honeydew;
+    font-size: 2em;
+    text-indent: 1.3em;
+    text-align: justify;
+}
+
+.enigma{
+    text-transform: uppercase;
+    background: none;
+    width: 80%;
+    height: 15%;
+    color: tomato; 
+    font-size: 40px;
+    box-shadow: none;
+    border: none;
+    font-family: 'Ninja Naruto', sans-serif;
+}
+
+.enigma:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.rodape {
+    width: 100%;
+    height: 25%;
+    background-image: url('/imagem/tumblr.gif');
+    background-size: contain;
+    background-position-x:80%;
+    background-position-y:center;
+    background-repeat: no-repeat;
+}
