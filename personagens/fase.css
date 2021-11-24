@@ -44,6 +44,7 @@
     width: 80%;
     height: 60%;
     display: flex;
+    flex-direction: column;
     color: honeydew;
     font-size: 2em;
     text-indent: 1.3em;

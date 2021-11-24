@@ -19,7 +19,10 @@
     width: 100%;
     height: 80%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+   
 }
 
 .gif {
@@ -29,4 +32,26 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;   
+}
+
+.parabens{
+    width: 30%;
+    height: 30%;
+    margin-top: 5%;
+    color:yellow;
+    font-family: 'Ninja Naruto', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.animationContent::after{
+    content:'';
+    animation: parabens 3s linear infinite;
+
+}
+
+@keyframes parabens{
+    0% {content: 'PARABÉNS'; }
+    50% {content: '';}
+    60% {content: 'FIM DE JOGO'; color: red;}
 }
